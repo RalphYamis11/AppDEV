@@ -20,7 +20,7 @@ export default function HomeScreen() {
         {/* Profile Picture */}
         <View style={styles.avatarContainer}>
           <Image
-            source={{ uri: 'https://ui-avatars.com/api/?name=Ralp+Lorenz+Yamis&size=200&background=4A90E2&color=fff' }}
+            source={require('../../assets/images/PFP.jpg')}
             style={styles.avatar}
           />
         </View>
